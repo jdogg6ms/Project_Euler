@@ -1,0 +1,15 @@
+Test #1 passed.
+The answer to 50 is:997651
+         78705 function calls in 2003.832 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        3    0.267    0.089    0.267    0.089 p50.py:14(gen_primes)
+        3 2003.527  667.842 2003.831  667.944 p50.py:28(consecutive_primes)
+        1    0.000    0.000 2003.831 2003.831 p50.py:4(<module>)
+    78694    0.037    0.000    0.037    0.000 {len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 {range}
+
+

@@ -1,0 +1,18 @@
+Test passed.
+The answer to #47 is:134043
+         698790 function calls in 651.470 CPU seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  651.470  651.470 p47.py:17(<module>)
+        3    0.431    0.144  651.470  217.157 p47.py:20(consecutive_factors)
+   134698   51.713    0.000  650.948    0.005 p47.py:37(PrimeFactors)
+   134698  467.866    0.003  599.235    0.004 p47.py:41(gen_primes)
+   134698  110.983    0.001  110.983    0.001 {filter}
+   134698    0.074    0.000    0.074    0.000 {len}
+    25295    0.015    0.000    0.015    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   134698   20.386    0.000   20.386    0.000 {range}
+
+
